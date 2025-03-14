@@ -23,3 +23,5 @@ This code shows how let is a local scope variable, meaning that it is only avail
 let x = 20;
 const y = 30; 
 
+x*y // should equal 600
+
