@@ -20,3 +20,6 @@ printLoop();
 This code shows how let is a local scope variable, meaning that it is only available within the block in which it is declared, and cannot be accessed outside of that block.
 */
 
+let x = 20;
+const y = 30; 
+
