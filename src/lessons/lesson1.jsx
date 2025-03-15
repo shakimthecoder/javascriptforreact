@@ -29,4 +29,25 @@ function PrintLoop () {
     console.log("Hello world");
 }
 
+const user = {
+    name: "John",
+    email: "john20@gmail.com",
+    password: "123456"
+}
+
+console.log(user.name);
+console.log(user["email"]);
+
+const { name, email, password} = user;
+console.log(user);
+
+// Map function examples
+
+const Products = ["Product 1", "Product 2", "Product 3", "Product 4"];
+
+const displayItems = Products.map(function (Product){
+    return Product;
+});
+
+console.log(displayItems);
 export default PrintLoop;
