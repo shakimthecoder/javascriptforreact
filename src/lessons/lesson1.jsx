@@ -50,4 +50,10 @@ const displayItems = Products.map(function (Product){
 });
 
 console.log(displayItems);
+
+const displayProducts = Products.map((Product) => {
+    return Product;
+});
+
+console.log(displayProducts);
 export default PrintLoop;
