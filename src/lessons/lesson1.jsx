@@ -25,3 +25,8 @@ const y = 30;
 
 x*y // should equal 600
 
+function PrintLoop () {
+    console.log("Hello world");
+}
+
+export default PrintLoop;
