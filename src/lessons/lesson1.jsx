@@ -51,9 +51,17 @@ const displayItems = Products.map(function (Product){
 
 console.log(displayItems);
 
-const displayProducts = Products.map((Product) => {
-    return Product;
-});
+const displayProducts = Products.map((Product) => `<li>${Product}</li>`);
 
 console.log(displayProducts);
+
+// Filter function examples
+
+const ages = [12, 15, 18, 20, 25, 30];
+console.log(ages);
+
+const adults = ages.filter((age) => {
+    return age >= 18;
+})
+console.log(adults);
 export default PrintLoop;
