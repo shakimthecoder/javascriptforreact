@@ -68,6 +68,6 @@ console.log(adults);
 const arr1 = [2, 4, 6, 9];
 const arr2 = [3, 30, 40, 50];
 
-const arr3 = concat.arr1(arr2);
+const arr3 = arr1.concat(arr2);
 console.log(arr3);
 export default PrintLoop;
