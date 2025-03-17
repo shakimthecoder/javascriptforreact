@@ -62,4 +62,12 @@ console.log(ages);
 
 const adults = ages.filter((age) => age >= 18);
 console.log(adults);
+
+// Spread operator
+
+const arr1 = [2, 4, 6, 9];
+const arr2 = [3, 30, 40, 50];
+
+const arr3 = concat.arr1(arr2);
+console.log(arr3);
 export default PrintLoop;
