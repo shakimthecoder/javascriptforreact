@@ -67,7 +67,29 @@ console.log(adults);
 
 const arr1 = [2, 4, 6, 9];
 const arr2 = [3, 30, 40, 50];
+const arr4 = ["a", "b", "c", "d"];
 
-const arr3 = arr1.concat(arr2);
+const arr3 = arr1.concat(arr4, arr2);
 console.log(arr3);
+
+// Now lets do the same thing with the spread operator...
+
+const arr5 = [1, 2, 4, 500];
+const arr6 = [100, 200, 1000];
+
+const numbers = [...arr5, ...arr6];
+console.log(numbers);
+
+// Lets spread an object
+
+const user1 = {
+    name: "James"
+}
+
+const user2 = {
+    hobby: ["Teaching", "Coding", "Reading"]
+}
+
+const user3 = {...user1, ...user2, Youtube: "Learn to Code Today"};
+console.log(user3);
 export default PrintLoop;
