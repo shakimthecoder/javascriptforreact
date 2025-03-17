@@ -60,8 +60,6 @@ console.log(displayProducts);
 const ages = [12, 15, 18, 20, 25, 30];
 console.log(ages);
 
-const adults = ages.filter((age) => {
-    return age >= 18;
-})
+const adults = ages.filter((age) => age >= 18);
 console.log(adults);
 export default PrintLoop;
